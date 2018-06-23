@@ -6,10 +6,11 @@ public class While1 {
         int i = 1;
         int toplam = 0;
         while (i <= 10) {
-            System.out.println(i);
+            System.out.print(i + " ");
             toplam = toplam + i;
             i++;
         }
+        System.out.println();
         System.out.println(toplam);
     }
 
